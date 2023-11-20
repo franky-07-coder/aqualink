@@ -1,0 +1,38 @@
+.about{
+    display: flex;
+    gap: 60px;
+    padding: 40px 10px;
+    justify-content: center;
+
+}
+
+ h2{
+    text-align: center;
+    padding-block: 2rem;
+}
+
+.sec1{
+    flex-basis: 50%;
+    width: auto;
+}
+
+.sec2{
+    flex-basis: 50%;
+    margin: 0 auto;
+}
+
+.sec2 img{
+    width: 80%;
+}
+
+.ic{
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .about{
+        flex-direction: column;
+    }
+}
